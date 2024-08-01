@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maiky Pizza</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <header class="restaurant-header">
+        <h1>Welcome to MAIKY PIZZA</h1>
+        <p>Your delicious adventure starts here!</p>
+    </header>
+    <h1 style="color: chocolate; font-family: 'Verdana', sans-serif;">Pizza</h1>
+    <img src="pizza.jpg" alt="this is a pizza" height="200" width="200">
+
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/restaurant-table.png" alt="restaurant image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat with us</h4>
+                    <p class="chatbox__description--header">Hi. I’m Maiky. How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" alt="Chat icon" /></button>
+        </div>
+    </div>
+</div>
+
+<script>
+    $SCRIPT_ROOT = {{ request.script_root|tojson }};
+</script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

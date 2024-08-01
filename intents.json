@@ -1,0 +1,125 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting Maiky Pizza!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "name",
+        "what are you called",
+        "what is the name of your restaurant "
+      ],
+      "responses": [
+        "We are Maiky pizza",
+        " Maiky Pizza!"
+
+      ]
+    },
+    {
+      "tag": "working state",
+      "patterns": [
+        "are you still working ",
+        "are you open"
+      ],
+      "responses": [
+        "yes we re still working",
+        "yes we re open!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting Maiky Pizza!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is your location?", "Where can I find you?", "You are near what?"],
+      "responses": [
+        "We are located near The Castle of Justice in Batna, Algeria."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of food do you serve?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "At Maiky Pizza, we serve a variety of food including pizza, hamburgers, tacos, chicken souffle, and more. We also have a large selection of drinks."
+      ]
+    },
+    {
+      "tag": "prices",
+      "patterns": [
+        "What are your prices?",
+        "How much does it cost?",
+        "What is the price range?"
+      ],
+      "responses": [
+        "Our prices range from $3 to $10, which is very affordable."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, and Paypal.",
+        "We accept most major credit cards and Paypal."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Do you offer delivery?",
+        "Can I get my food delivered?",
+        "Do you have a delivery service?"
+      ],
+      "responses": [
+        "Yes, we offer delivery service. Delivery times may vary, please contact us for more details."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He ate the pizza before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
